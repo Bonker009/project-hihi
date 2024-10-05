@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "project-hihi"
+version = "0.1.0"
+description = ""
+authors = ["seyha rouge <penhseyha4980@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+groq = "^0.11.0"
+python-decouple = "^3.8"
+langchain = "^0.3.2"
+langchain-community = "^0.3.1"
+psycopg2 = "^2.9.9"
+langchain-groq = "^0.2.0"
+matplotlib = "^3.9.2"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
